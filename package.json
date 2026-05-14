@@ -28,6 +28,7 @@
     "@mui/lab": "7.0.1-beta.23",
     "@mui/material": "7.3.9",
     "@mui/system": "7.3.9",
+    "@mui/utils": "^9.0.1",
     "@mui/x-date-pickers": "8.27.2",
     "@mui/x-tree-view": "8.27.2",
     "@react-pdf/renderer": "4.3.2",
