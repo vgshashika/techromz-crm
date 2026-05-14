@@ -2964,6 +2964,7 @@ __metadata:
     react-zoom-pan-pinch: "npm:3.7.0"
     simplebar-react: "npm:3.3.2"
     slick-carousel: "npm:1.8.1"
+    stylis: "npm:^4.4.0"
     stylis-plugin-rtl: "npm:2.1.1"
     swr: "npm:2.4.1"
     use-places-autocomplete: "npm:4.0.1"
@@ -7398,6 +7399,13 @@ __metadata:
   version: 4.2.0
   resolution: "stylis@npm:4.2.0"
   checksum: 10c0/a7128ad5a8ed72652c6eba46bed4f416521bc9745a460ef5741edc725252cebf36ee45e33a8615a7057403c93df0866ab9ee955960792db210bb80abd5ac6543
+  languageName: node
+  linkType: hard
+
+"stylis@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "stylis@npm:4.4.0"
+  checksum: 10c0/259be096d90dfbfe903c8656dcb7591e52a421e577e950ef42ebd9ca02f387623a1165dd08761492fb6e92a7a562d62a53a694a10b0a2f6dcd7a0db107b4bf55
   languageName: node
   linkType: hard
 
