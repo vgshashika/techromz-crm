@@ -47,7 +47,6 @@
     "date-fns": "4.1.0",
     "dayjs": "1.11.19",
     "emoji-picker-react": "4.18.0",
-    "env-cmd": "11.0.0",
     "firebase": "12.10.0",
     "formik": "2.4.9",
     "framer-motion": "12.35.2",
@@ -92,10 +91,10 @@
     "yup": "1.7.1"
   },
   "scripts": {
-    "start": "node ./node_modules/vite/bin/vite.js",
-    "build": "env-cmd -f .env node ./node_modules/vite/bin/vite.js build",
-    "build-stage": "env-cmd -f .env.qa node ./node_modules/vite/bin/vite.js build",
-    "preview": "node ./node_modules/vite/bin/vite.js preview",
+    "start": "vite",
+    "build": "vite build",
+    "build-stage": "vite build --mode qa",
+    "preview": "vite preview",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""

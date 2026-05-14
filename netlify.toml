@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "yarn build"
   functions = "netlify/functions"
   publish = "dist"
 
@@ -12,17 +12,17 @@
   status = 200
 
 [dev]
-  command = "npm run dev"
+  command = "yarn start"
   port = 3000
 
 [context.production]
-  command = "npm run build"
+  command = "yarn build"
   publish = "dist"
 
 [context.deploy-preview]
-  command = "npm run build"
+  command = "yarn build"
   publish = "dist"
 
 [context.branch-deploy]
-  command = "npm run build"
+  command = "yarn build"
   publish = "dist"
