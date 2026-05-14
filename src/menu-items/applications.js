@@ -6,16 +6,13 @@ import { NavActionType } from 'config';
 import {
   Add,
   DirectInbox,
-  DocumentFilter,
   Link1,
   KyberNetwork,
   Messages2,
   Calendar1,
   Kanban,
   Profile2User,
-  Bill,
-  UserSquare,
-  ShoppingBag
+  Bill
 } from 'iconsax-reactjs';
 
 // icons
@@ -26,9 +23,6 @@ const icons = {
   kanban: Kanban,
   customer: Profile2User,
   invoice: Bill,
-  profile: UserSquare,
-  ecommerce: ShoppingBag,
-  fileManager: DocumentFilter,
   add: Add,
   link: Link1,
   mail: DirectInbox
@@ -54,8 +48,8 @@ const applications = {
       id: 'calendar',
       title: 'calendar',
       type: 'item',
-      url: '/apps/calendar',
       icon: icons.calendar,
+      url: '/apps/calendar',
       actions: [
         {
           type: NavActionType.LINK,
@@ -142,94 +136,6 @@ const applications = {
           breadcrumbs: false
         }
       ]
-    },
-    {
-      id: 'profile',
-      title: 'profile',
-      type: 'collapse',
-      icon: icons.profile,
-      children: [
-        {
-          id: 'user-profile',
-          title: 'user-profile',
-          type: 'item',
-          link: '/apps/profiles/user/:tab',
-          url: '/apps/profiles/user/personal',
-          breadcrumbs: false
-        },
-        {
-          id: 'account-profile',
-          title: 'account-profile',
-          type: 'item',
-          url: '/apps/profiles/account/basic',
-          link: '/apps/profiles/account/:tab',
-          breadcrumbs: false
-        },
-        {
-          id: 'social-profile',
-          title: 'social-profile',
-          type: 'item',
-          url: '/apps/profiles/social-profile/profile',
-          link: '/apps/profiles/social-profile/:tab',
-          breadcrumbs: false
-        }
-      ]
-    },
-    {
-      id: 'e-commerce',
-      title: 'e-commerce',
-      type: 'collapse',
-      icon: icons.ecommerce,
-      children: [
-        {
-          id: 'products',
-          title: 'products',
-          type: 'item',
-          url: '/apps/e-commerce/products'
-        },
-        {
-          id: 'product-details',
-          title: 'product-details',
-          type: 'item',
-          link: '/apps/e-commerce/product-details/:id',
-          url: '/apps/e-commerce/product-details/1',
-          breadcrumbs: false
-        },
-        {
-          id: 'product-list',
-          title: 'product-list',
-          type: 'item',
-          url: '/apps/e-commerce/product-list',
-          breadcrumbs: false
-        },
-        {
-          id: 'add-new-product',
-          title: 'add-new-product',
-          type: 'item',
-          url: '/apps/e-commerce/add-new-product'
-        },
-        {
-          id: 'checkout',
-          title: 'checkout',
-          type: 'item',
-          url: '/apps/e-commerce/checkout'
-        }
-      ]
-    },
-    {
-      id: 'file-manager',
-      title: 'file-manager',
-      type: 'item',
-      url: '/apps/file-manager',
-      icon: icons.fileManager
-    },
-    {
-      id: 'mail',
-      title: 'mail',
-      type: 'item',
-      icon: icons.mail,
-      url: '/apps/mail',
-      breadcrumbs: false
     }
   ]
 };

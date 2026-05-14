@@ -21,7 +21,7 @@ import { Add, Link1 } from 'iconsax-reactjs';
 
 export default function ProjectRelease() {
   return (
-    <MainCard title="Project - Able Pro    ">
+    <MainCard title="Project - Techromz CRM">
       <Grid container spacing={1.5}>
         <Grid size={12}>
           <Stack sx={{ gap: 1 }}>

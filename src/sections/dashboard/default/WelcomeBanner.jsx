@@ -41,15 +41,15 @@ export default function WelcomeBanner() {
       <Grid container>
         <Grid size={{ md: 6, sm: 6, xs: 12 }}>
           <Stack sx={{ gap: 2, padding: 3 }}>
-            <Typography variant="h2">Explore Redesigned Able Pro</Typography>
+            <Typography variant="h2">Welcome to Techromz CRM</Typography>
             <Typography variant="h6">
-              The Brand new User Interface with power of Material-UI Components. Explore the Endless possibilities with Able Pro.
+              Customer relationship intelligence, pipeline automation, and reporting in one modern dashboard.
             </Typography>
             <Box sx={{ pt: 1.5 }}>
               <Button
                 variant="outlined"
                 color="secondary"
-                href={buyNowLink}
+                href="/dashboard/default"
                 sx={(theme) => ({
                   color: 'background.paper',
                   borderColor: 'background.paper',
@@ -62,9 +62,8 @@ export default function WelcomeBanner() {
                     ...theme.applyStyles('dark', { color: 'text.primary', borderColor: 'text.primary' })
                   }
                 })}
-                target="_blank"
               >
-                Download
+                Open dashboard
               </Button>
             </Box>
           </Stack>
