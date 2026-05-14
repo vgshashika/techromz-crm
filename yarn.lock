@@ -2972,6 +2972,7 @@ __metadata:
     maplibre-gl: "npm:5.20.0"
     maplibre-react-components: "npm:0.2.6"
     notistack: "npm:3.0.2"
+    pako: "npm:1.0.11"
     prettier: "npm:3.8.1"
     prop-types: "npm:15.8.1"
     react: "npm:19.2.4"
@@ -6086,14 +6087,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pako@npm:^0.2.5":
-  version: 0.2.9
-  resolution: "pako@npm:0.2.9"
-  checksum: 10c0/79c1806ebcf325b60ae599e4d7227c2e346d7b829dc20f5cf24cef07c934079dc3a61c5b3c8278a2f7a190c4a613e343ea11e5302dbe252efd11712df4b6b041
-  languageName: node
-  linkType: hard
-
-"pako@npm:~1.0.5":
+"pako@npm:1.0.11":
   version: 1.0.11
   resolution: "pako@npm:1.0.11"
   checksum: 10c0/86dd99d8b34c3930345b8bbeb5e1cd8a05f608eeb40967b293f72fe469d0e9c88b783a8777e4cc7dc7c91ce54c5e93d88ff4b4f060e6ff18408fd21030d9ffbe
