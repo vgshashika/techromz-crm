@@ -2938,6 +2938,7 @@ __metadata:
     maplibre-react-components: "npm:0.2.6"
     notistack: "npm:3.0.2"
     prettier: "npm:3.8.1"
+    prop-types: "npm:15.8.1"
     react: "npm:19.2.4"
     react-apexcharts: "npm:2.1.0"
     react-csv: "npm:2.2.2"
@@ -6251,7 +6252,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.5.0, prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
+"prop-types@npm:15.8.1, prop-types@npm:^15.5.0, prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
