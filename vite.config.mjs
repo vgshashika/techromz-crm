@@ -38,24 +38,6 @@ export default defineConfig(({ mode }) => {
             if (/\.(png|jpe?g|gif|svg|webp|ico)$/.test(name)) return `images/[name]-[hash].${ext}`;
             if (/\.(woff2?|eot|ttf|otf)$/.test(name)) return `fonts/[name]-[hash].${ext}`;
             return `assets/[name]-[hash].${ext}`;
-          },
-          manualChunks: (id) => {
-            // Split large dependencies into separate chunks to reduce memory usage
-            if (id.includes('node_modules')) {
-              if (id.includes('@mui') || id.includes('material-ui')) {
-                return 'mui-vendor';
-              }
-              if (id.includes('react') || id.includes('react-dom')) {
-                return 'react-vendor';
-              }
-              if (id.includes('apexcharts') || id.includes('react-apexcharts')) {
-                return 'charts-vendor';
-              }
-              if (id.includes('@fullcalendar')) {
-                return 'calendar-vendor';
-              }
-              return 'vendor';
-            }
           }
         }
       },
