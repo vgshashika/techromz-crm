@@ -18,21 +18,22 @@ export default function Footer() {
   return (
     <Stack direction={{ sm: 'row' }} sx={{ gap: 1, justifyContent: 'space-between', alignItems: 'center', pt: 3, mt: 'auto' }}>
       <Typography variant="caption">
-        &copy; Handcrafted by Team Phoenixcoded. Powered by{' '}
-        <Link href="https://codedthemes.com/" target="_blank" underline="none">
-          {' '}
-          CodedThemes
-        </Link>
-        .
+        &copy; 2024 Techromz. All rights reserved.
       </Typography>
       <Stack direction="row" sx={{ gap: 1.5, justifyContent: 'space-between', alignItems: 'center' }}>
-        <Link component={RouterLink} to="https://ableproadmin.com" target="_blank" variant="caption" color="text.primary">
+        <Link component={RouterLink} to="/" variant="caption" color="text.primary">
           Home
         </Link>
-        <Link component={RouterLink} to="https://techromz.lk/documentation" target="_blank" variant="caption" color="text.primary">
+        <Link component={RouterLink} to="/documentation" variant="caption" color="text.primary">
           Documentation
         </Link>
-        <Link component={RouterLink} to={SupportLink} target="_blank" variant="caption" color="text.primary">
+        <Link component={RouterLink} to="/privacy-policy" variant="caption" color="text.primary">
+          Privacy Policy
+        </Link>
+        <Link component={RouterLink} to="/terms-conditions" variant="caption" color="text.primary">
+          Terms & Conditions
+        </Link>
+        <Link href={SupportLink} target="_blank" variant="caption" color="text.primary">
           Support
         </Link>
       </Stack>

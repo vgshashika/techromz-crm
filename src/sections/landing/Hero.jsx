@@ -209,7 +209,7 @@ export default function HeroPage() {
                           Sales
                         </Box>
                       </Typography>
-                      <Typography variant="h4">6.5K+</Typography>
+                      <Typography variant="h4">1K+</Typography>
                     </Grid>
                   </Grid>
                 </motion.div>
@@ -234,7 +234,7 @@ export default function HeroPage() {
                         lineHeight: { xs: 1.4, md: 1.4 }
                       }}
                     >
-                      - Click Below Icon to Preview Each Tech Demos -
+                      
                     </Typography>
                   </motion.div>
                 </Grid>

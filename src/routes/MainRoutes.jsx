@@ -22,6 +22,11 @@ const AppInvoiceDashboard = Loadable(lazy(() => import('pages/apps/invoice/dashb
 const AppInvoiceList = Loadable(lazy(() => import('pages/apps/invoice/list')));
 const AppInvoiceDetails = Loadable(lazy(() => import('pages/apps/invoice/details')));
 const AppInvoiceEdit = Loadable(lazy(() => import('pages/apps/invoice/edit')));
+
+// render - extra pages
+const PrivacyPolicyPage = Loadable(lazy(() => import('pages/extra-pages/privacy-policy')));
+const TermsAndConditionsPage = Loadable(lazy(() => import('pages/extra-pages/terms-conditions')));
+
 const MaintenanceError = Loadable(lazy(() => import('pages/maintenance/error/404')));
 
 const MainRoutes = {
@@ -112,6 +117,14 @@ const MainRoutes = {
               ]
             }
           ]
+        },
+        {
+          path: 'privacy-policy',
+          element: <PrivacyPolicyPage />
+        },
+        {
+          path: 'terms-conditions',
+          element: <TermsAndConditionsPage />
         }
       ]
     },
