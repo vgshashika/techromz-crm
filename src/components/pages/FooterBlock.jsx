@@ -35,7 +35,7 @@ const FooterLink = styled(Link)(({ theme }) => ({
 export default function FooterBlock({ isFull }) {
   const { isPhoenix } = useBuyNowLink();
 
-  const SupportLink = isPhoenix ? 'https://phoenixcoded.authordesk.app/' : 'https://codedthemes.support-hub.io/';
+  const SupportLink = 'https://techromz.lk/support/';
 
   const linkSX = { color: 'text.secondary', fontWeight: 400, opacity: '0.6', cursor: 'pointer', '&:hover': { opacity: '1' } };
 
@@ -43,17 +43,14 @@ export default function FooterBlock({ isFull }) {
     { label: 'Profile', link: 'https://1.envato.market/xk3bQd' },
     { label: 'Portfolio', link: 'https://1.envato.market/Qyre4x' },
     { label: 'Follow Us', link: 'https://1.envato.market/Py9k4X' },
-    { label: 'Website', link: 'https://codedthemes.com/' }
+    { label: 'Website', link: 'https://techromz.lk/' }
   ];
   const EcoSystem = [
     {
       label: 'CRM Dashboard',
       link: import.meta.env.VITE_CRM_URL
     },
-    {
-      label: 'ERP Management',
-      link: import.meta.env.VITE_ERP_URL
-    },
+   
     {
       label: 'Customer Management',
       link: '#'
@@ -117,7 +114,7 @@ export default function FooterBlock({ isFull }) {
               <Grid container spacing={{ xs: 5, md: 2 }}>
                 <Grid size={{ xs: 6, sm: 4 }}>
                   <Stack sx={{ gap: 3 }}>
-                    <Typography variant="h5">{isPhoenix ? 'Company' : 'Able Pro Eco-System'}</Typography>
+                    <Typography variant="h5">{isPhoenix ? 'Company' : 'Techromz Eco-System'}</Typography>
                     <Stack sx={{ gap: { xs: 1.5, md: 2.5 } }}>
                       {(isPhoenix ? footerData : EcoSystem).map((item, index) => (
                         <FooterLink key={index} href={item.link} target="_blank" underline="none">
@@ -202,17 +199,17 @@ export default function FooterBlock({ isFull }) {
                 </Link>
               </Tooltip>
               {/* <Tooltip title="Youtube">
-                <Link href="https://www.youtube.com/@phoenixcoded" underline="none" target="_blank" sx={linkSX}>
+                <Link href="https://techromz.lk/" underline="none" target="_blank" sx={linkSX}>
                   <Youtube variant="Bold" size={20} />
                 </Link>
               </Tooltip> */}
               {/* <Tooltip title="Github">
-                <Link href="https://github.com/phoenixcoded" underline="none" target="_blank" sx={linkSX}>
+                <Link href="https://github.com/techromz/techromz-crm" underline="none" target="_blank" sx={linkSX}>
                   <GithubFilledIcon size={20} />
                 </Link>
               </Tooltip> */}
               {/* <Tooltip title="Dribbble">
-                <Link href="https://dribbble.com/Phoenixcoded" underline="none" target="_blank" sx={linkSX}>
+                <Link href="https://techromz.lk/" underline="none" target="_blank" sx={linkSX}>
                   <Dribbble variant="Bold" size={20} />
                 </Link>
               </Tooltip> */}

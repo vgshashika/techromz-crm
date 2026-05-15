@@ -82,7 +82,7 @@ export default function Header({
 
   const { isPhoenix, buyNowLink, getQueryParams } = useBuyNowLink();
 
-  const SupportLink = isPhoenix ? 'https://phoenixcoded.authordesk.app/' : 'https://codedthemes.support-hub.io/';
+  const SupportLink = 'https://techromz.lk/support/';
 
   const drawerToggler = (open) => (event) => {
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -187,7 +187,7 @@ export default function Header({
           <Link
             className="header-link"
             color="secondary.main"
-            href="https://phoenixcoded.gitbook.io/able-pro/"
+            href="https://techromz.lk/documentation"
             target="_blank"
             underline="none"
           >
@@ -197,7 +197,7 @@ export default function Header({
             className="header-link"
             sx={{ fontSize: 24, verticalAlign: 'middle' }}
             color="secondary.main"
-            href="https://github.com/codedthemes/mantis-free-react-admin-template"
+            href="https://github.com/techromz/techromz-crm"
             target="_blank"
             underline="none"
           >
@@ -271,7 +271,7 @@ export default function Header({
         {/* <Link
           className="header-link"
           color="secondary.main"
-          href="https://phoenixcoded.gitbook.io/able-pro/"
+          href="https://techromz.lk/documentation"
           target="_blank"
           underline="none"
         >
@@ -313,7 +313,7 @@ export default function Header({
           className="header-link"
           sx={{ fontSize: 24, verticalAlign: 'middle' }}
           color="secondary.main"
-          href="https://github.com/codedthemes/mantis-free-react-admin-template"
+          href="https://github.com/techromz/techromz-crm"
           target="_blank"
           underline="none"
         >
@@ -430,7 +430,7 @@ export default function Header({
                 <ListItemText primary="All Components" slotProps={{ primary: { variant: 'h6', color: 'text.primary' } }} />
               </ListItemButton>
             </Link>
-            <Link underline="none" href="https://github.com/codedthemes/mantis-free-react-admin-template" target="_blank">
+            <Link underline="none" href="https://github.com/techromz/techromz-crm" target="_blank">
               <ListItemButton>
                 <ListItemIcon>
                   <Minus />
@@ -438,7 +438,7 @@ export default function Header({
                 <ListItemText primary="Free Version" slotProps={{ primary: { variant: 'h6', color: 'text.primary' } }} />
               </ListItemButton>
             </Link>
-            <Link underline="none" href="https://phoenixcoded.gitbook.io/able-pro/" target="_blank">
+            <Link underline="none" href="https://techromz.lk/documentation" target="_blank">
               <ListItemButton>
                 <ListItemIcon>
                   <Minus />
@@ -454,7 +454,7 @@ export default function Header({
                 <ListItemText primary="Support" slotProps={{ primary: { variant: 'h6', color: 'text.primary' } }} />
               </ListItemButton>
             </Link>
-            <Link underline="none" href="https://mui.com/store/items/mantis-react-admin-dashboard-template/" target="_blank">
+            <Link underline="none" href="https://techromz.lk/" target="_blank">
               <ListItemButton>
                 <ListItemIcon>
                   <Minus />

@@ -125,7 +125,7 @@ const support = {
       id: 'documentation',
       title: 'documentation',
       type: 'item',
-      url: 'https://phoenixcoded.gitbook.io/able-pro',
+      url: 'https://techromz.lk/documentation',
       icon: icons.documentation,
       external: true,
       target: true,
@@ -139,7 +139,7 @@ const support = {
       id: 'roadmap',
       title: 'roadmap',
       type: 'item',
-      url: 'https://phoenixcoded.gitbook.io/able-pro/v/react/roadmap',
+      url: 'https://techromz.lk/roadmap',
       icon: icons.roadmap,
       external: true,
       target: true

@@ -217,7 +217,7 @@ export const listData = [
   },
   {
     primary: 'Category',
-    secondaryText: 'able pro',
+    secondaryText: 'techromz crm',
     avatar: { text: 'A', color: 'success' }
   },
   {

@@ -28,14 +28,14 @@ const Technologies = [
   // {
   //   icon: featureFigma,
   //   title: 'Figma Design System',
-  //   description: 'Check the live preview of Able Pro Figma design file. Figma file included in all licenses.',
+  //   description: 'Check the live preview of Techromz Figma design file. Design resources available for partners.',
   //   preview: 'https://www.figma.com/file/6XqmRhRmkr33w0EFD49acY/Able-Pro--v9.0-Figma-Preview?type=design&mode=design&t=4FS2Lw6WxsmJ3RLm-0'
   //   alt: 'figma'
   // },
   {
     icon: featureComponents,
     title: 'Explore Components',
-    description: 'Access all components of Able Pro in one place to make your development work easier.',
+    description: 'Access all CRM components of Techromz in one place to streamline your customer relationship management.'
     // preview: '/components-overview',
     // label: 'View All Components',
     // alt: 'components'
@@ -44,7 +44,7 @@ const Technologies = [
     icon: featureDocumentation,
     title: 'Documentation',
     description: 'Find solutions and navigate through our helper guide with ease.',
-    // preview: 'https://phoenixcoded.gitbook.io/able-pro',
+    // preview: 'https://techromz.lk/',
     // label: 'Check Documentation',
     // alt: 'documentation'
   }

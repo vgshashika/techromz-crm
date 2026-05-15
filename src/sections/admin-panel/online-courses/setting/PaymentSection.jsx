@@ -42,7 +42,7 @@ function SectionContent({ currentSection, handleTaxChange, handleSaleChange, tax
           <Stack sx={{ gap: 0.5, textAlign: 'center' }}>
             <Typography variant="h4">Establish your payment gateway</Typography>
             <Typography sx={{ color: 'text.secondary' }}>
-              Able Pro: pay streamlines your payout process, facilitating faster payments while managing author and affiliate payouts on
+              Techromz: pay streamlines your payout process, facilitating faster payments while managing customer and affiliate payouts on
               your behalf.
             </Typography>
           </Stack>

@@ -109,7 +109,7 @@ export default function Login3Page() {
                     <Grid sx={{ textAlign: 'center' }} size={12}>
                       <Grid container spacing={1}>
                         <Grid size={12}>
-                          <Typography variant="h3">Welcome to the Able Pro</Typography>
+                          <Typography variant="h3">Welcome to Techromz CRM</Typography>
                         </Grid>
                         <Grid size={12}>
                           <Typography>Sign up or login with your work email.</Typography>
@@ -155,7 +155,7 @@ export default function Login3Page() {
                   <Grid container spacing={3}>
                     <Grid sx={{ textAlign: 'center' }} size={12}>
                       <Stack sx={{ gap: 1 }}>
-                        <Typography variant="h3">Welcome to the Able Pro</Typography>
+                        <Typography variant="h3">Welcome to Techromz CRM</Typography>
                         <Typography>Sign up or login with your work email.</Typography>
                       </Stack>
                     </Grid>
@@ -371,7 +371,7 @@ export default function Login3Page() {
         <Grid size={12}>
           <Stack direction="row" sx={{ justifyContent: 'center', alignItems: 'baseline', mb: { xs: -0.5, sm: 0.5 } }}>
             <Typography align="center">
-              By signing up, you confirm to have read Able pro
+              By signing up, you confirm to have read Techromz CRM
               <Typography
                 component={Link}
                 to={'https://www.envato.com/privacy/'}

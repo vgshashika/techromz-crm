@@ -57,7 +57,7 @@ export default function FigmaBlock() {
               <Button
                 component={Link}
                 target="_blank"
-                href="https://codedthemes.com/item/able-pro-free-figma-ui-kit/"
+                href="https://techromz.lk/design"
                 size="large"
                 color="secondary"
                 variant="outlined"
@@ -70,7 +70,7 @@ export default function FigmaBlock() {
               <Button
                 component={Link}
                 target="_blank"
-                href="https://codedthemes.com/item/able-pro-figma-ui-kit/"
+                href="https://techromz.lk/design-pro"
                 size="large"
                 color="primary"
                 variant="contained"

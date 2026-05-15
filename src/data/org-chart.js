@@ -16,25 +16,25 @@ export const data = [
     name: 'Anne Teak',
     role: 'CEO',
     avatar: Avatar1,
-    linkedin: 'https://www.linkedin.com/company/codedthemes',
-    facebook: 'https://www.facebook.com/codedthemes',
-    twitter: 'https://twitter.com/codedthemes',
+    linkedin: 'https://www.linkedin.com/company/techromz',
+    facebook: 'https://www.facebook.com/techromz',
+    twitter: 'https://twitter.com/techromz',
     children: [
       {
         name: 'Colin Sik',
         role: 'CFO',
         avatar: Avatar1,
-        linkedin: 'https://www.linkedin.com/company/codedthemes',
-        facebook: 'https://www.facebook.com/codedthemes',
-        twitter: 'https://twitter.com/codedthemes',
+        linkedin: 'https://www.linkedin.com/company/techromz',
+        facebook: 'https://www.facebook.com/techromz',
+        twitter: 'https://twitter.com/techromz',
         children: [
           {
             name: 'Karen Onnabit',
             role: 'Controller',
             avatar: Avatar2,
-            linkedin: 'https://www.linkedin.com/company/codedthemes',
-            facebook: 'https://www.facebook.com/codedthemes',
-            twitter: 'https://twitter.com/codedthemes'
+            linkedin: 'https://www.linkedin.com/company/techromz',
+            facebook: 'https://www.facebook.com/techromz',
+            twitter: 'https://twitter.com/techromz'
           }
         ]
       },
@@ -42,35 +42,35 @@ export const data = [
         name: 'Jen Tile',
         role: 'VP of Marketing',
         avatar: Avatar3,
-        linkedin: 'https://www.linkedin.com/company/codedthemes',
-        facebook: 'https://www.facebook.com/codedthemes',
-        twitter: 'https://twitter.com/codedthemes',
+        linkedin: 'https://www.linkedin.com/company/techromz',
+        facebook: 'https://www.facebook.com/techromz',
+        twitter: 'https://twitter.com/techromz',
 
         children: [
           {
             name: 'Anne Thurium',
             role: 'Manager',
             avatar: Avatar8,
-            linkedin: 'https://www.linkedin.com/company/codedthemes',
-            facebook: 'https://www.facebook.com/codedthemes',
-            twitter: 'https://twitter.com/codedthemes',
+            linkedin: 'https://www.linkedin.com/company/techromz',
+            facebook: 'https://www.facebook.com/techromz',
+            twitter: 'https://twitter.com/techromz',
 
             children: [
               {
                 name: 'Liz Erd',
                 role: 'Junior Manager',
                 avatar: Avatar6,
-                linkedin: 'https://www.linkedin.com/company/codedthemes',
-                facebook: 'https://www.facebook.com/codedthemes',
-                twitter: 'https://twitter.com/codedthemes'
+                linkedin: 'https://www.linkedin.com/company/techromz',
+                facebook: 'https://www.facebook.com/techromz',
+                twitter: 'https://twitter.com/techromz'
               },
               {
                 name: 'Percy Vere',
                 role: 'Programmer',
                 avatar: Avatar7,
-                linkedin: 'https://www.linkedin.com/company/codedthemes',
-                facebook: 'https://www.facebook.com/codedthemes',
-                twitter: 'https://twitter.com/codedthemes'
+                linkedin: 'https://www.linkedin.com/company/techromz',
+                facebook: 'https://www.facebook.com/techromz',
+                twitter: 'https://twitter.com/techromz'
               }
             ]
           }
@@ -80,26 +80,26 @@ export const data = [
         name: 'Harriet Upp',
         role: 'VP of IT',
         avatar: Avatar9,
-        linkedin: 'https://www.linkedin.com/company/codedthemes',
-        facebook: 'https://www.facebook.com/codedthemes',
-        twitter: 'https://twitter.com/codedthemes',
+        linkedin: 'https://www.linkedin.com/company/techromz',
+        facebook: 'https://www.facebook.com/techromz',
+        twitter: 'https://twitter.com/techromz',
 
         children: [
           {
             name: 'Mark Ateer',
             role: 'System Admin',
             avatar: Avatar5,
-            linkedin: 'https://www.linkedin.com/company/codedthemes',
-            facebook: 'https://www.facebook.com/codedthemes',
-            twitter: 'https://twitter.com/codedthemes'
+            linkedin: 'https://www.linkedin.com/company/techromz',
+            facebook: 'https://www.facebook.com/techromz',
+            twitter: 'https://twitter.com/techromz'
           },
           {
             name: 'Dave Allippa',
             role: 'System Admin',
             avatar: Avatar10,
-            linkedin: 'https://www.linkedin.com/company/codedthemes',
-            facebook: 'https://www.facebook.com/codedthemes',
-            twitter: 'https://twitter.com/codedthemes'
+            linkedin: 'https://www.linkedin.com/company/techromz',
+            facebook: 'https://www.facebook.com/techromz',
+            twitter: 'https://twitter.com/techromz'
           }
         ]
       }

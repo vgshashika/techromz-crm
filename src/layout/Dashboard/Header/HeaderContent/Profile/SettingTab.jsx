@@ -21,7 +21,7 @@ export default function SettingTab() {
   const { pathname } = useLocation();
   const { isPhoenix } = useBuyNowLink();
 
-  const SupportLink = isPhoenix ? 'https://phoenixcoded.authordesk.app/' : 'https://codedthemes.support-hub.io/';
+  const SupportLink = 'https://techromz.lk/support/';
 
   const [selectedIndex, setSelectedIndex] = useState();
   const handleListItemClick = (event, index, route = '') => {

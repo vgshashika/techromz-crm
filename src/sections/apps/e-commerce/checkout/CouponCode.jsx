@@ -181,7 +181,7 @@ export default function CouponCode({ open, handleClose, setCoupon }) {
               <Grid size={{ xs: 12, sm: 8 }}>
                 <Stack sx={{ gap: 0.25 }}>
                   <Typography variant="subtitle1">Get $150 off on your subscription</Typography>
-                  <Typography variant="caption">When you subscribe to the unlimited consultation plan on able pro material.</Typography>
+                  <Typography variant="caption">When you subscribe to the unlimited support plan on Techromz CRM.</Typography>
                 </Stack>
               </Grid>
               <Grid sx={{ display: { xs: 'none', sm: 'block' } }} size={{ xs: 12, sm: 2 }}>

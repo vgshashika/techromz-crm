@@ -51,7 +51,7 @@ export default function AuthLogin({ forgot }) {
     <>
       <Formik
         initialValues={{
-          email: 'info@phoenixcoded.co',
+          email: 'info@techromz.lk',
           password: '123456',
           submit: null
         }}

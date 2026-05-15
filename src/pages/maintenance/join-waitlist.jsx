@@ -26,9 +26,9 @@ import avatar9 from 'assets/images/users/avatar-9.png';
 import avatar10 from 'assets/images/users/avatar-10.png';
 
 const socialIcons = [
-  { icon: GithubIcon, link: 'https://github.com/phoenixcoded' },
-  { icon: Dribbble, link: 'https://dribbble.com/Phoenixcoded' },
-  { icon: Youtube, link: 'https://www.youtube.com/@phoenixcoded' }
+  { icon: GithubIcon, link: 'https://github.com/techromz' },
+  { icon: Dribbble, link: 'https://dribbble.com/techromz' },
+  { icon: Youtube, link: 'https://www.youtube.com/@techromz' }
 ];
 
 // ==============================|| JOIN WAITLIST - MAIN ||============================== //

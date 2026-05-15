@@ -32,7 +32,7 @@ export default function ComingSoon() {
                 <Stack sx={{ gap: 3 }}>
                   <Typography variant="h4">Coming Soon</Typography>
                   <Typography variant="h2">
-                    <Box sx={{ color: 'primary.main', display: 'inline-block' }}>Able Pro</Box> - The Bootstrap Admin Template
+                    <Box sx={{ color: 'primary.main', display: 'inline-block' }}>Techromz</Box> - The Modern CRM Solution
                   </Typography>
                   <Typography sx={{ color: 'text.secondary' }}>
                     Presenting Material-UI based React Dashboard Template to build performance centric websites and applications.

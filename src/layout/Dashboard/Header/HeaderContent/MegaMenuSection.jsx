@@ -119,7 +119,7 @@ export default function MegaMenuSection() {
                             Explore Components
                           </Typography>
                           <Typography variant="h6">
-                            Try Able Pro&apos;s component pages to check how it feels and suits as per your need.
+                            Try Techromz CRM&apos;s component pages to check how it feels and suits as per your need.
                           </Typography>
                           <Stack direction="row" sx={{ justifyContent: 'space-between', alignItems: 'flex-end', mt: -1 }}>
                             <AnimateButton>

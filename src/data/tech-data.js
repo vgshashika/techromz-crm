@@ -23,8 +23,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'Tailwind',
     description:
-      'Able Pro with Tailwind CSS lets developers create sleek, professional interfaces quickly. Tailwind utility classes ensure consistent styling across all devices',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM with Tailwind CSS provides a sleek, professional interface for customer management. Tailwind utility classes ensure consistent styling.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Bootstrap',
@@ -33,8 +33,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'Bootstrap',
     description:
-      ' Able Pro Bootstrap 5 - the top choice for responsive, mobile-first design, you can achieve both professional functionality and visual appeal.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      ' Techromz CRM Bootstrap 5 - the top choice for responsive, mobile-first CRM design with professional functionality and appeal.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'React MUI',
@@ -43,8 +43,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'React MUI',
     description:
-      'Able Pro React dashboard template is a powerful tool that utilizes the Material-UI component library to create stunning and intuitive user interfaces.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM React template is a powerful tool that utilizes Material-UI to create stunning CRM user interfaces.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Angular',
@@ -53,8 +53,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'Angular',
     description:
-      'Able Pro Angular dashboard template is a powerful tool that utilizes the Google Material component library to create stunning and intuitive user interfaces.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Angular template is a powerful tool for building stunning CRM interfaces with Google Material design.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'CodeIgniter',
@@ -63,8 +63,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'CodeIgniter',
     description:
-      'Able Pro CodeIgniter version is a powerful dashboard template built specifically for developers who use the CodeIgniter PHP framework with Bootstrap.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM CodeIgniter version is a powerful CRM template built for CodeIgniter PHP developers with Bootstrap.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'ASP.net',
@@ -73,8 +73,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'ASP.net',
     description:
-      'Able Pro .NET version is a robust dashboard template designed specifically for .NET developers. Its comes with a wide range of pre-built components.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM .NET version is a robust CRM template designed for .NET developers with pre-built components.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Next js',
@@ -83,8 +83,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'Next js',
     description:
-      'Able Pro Next Js dashboard template is a powerful tool that utilizes the Material-UI component library to create stunning and intuitive user interfaces.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Next.js template is a powerful tool with Material-UI for stunning CRM interfaces.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Vue',
@@ -93,8 +93,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'Vue',
     description:
-      'Able Pro Vue stands out as a versatile and powerful - Vue with Vuetify dashboard combines modern design principles with robust functionality.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Vue with Vuetify combines modern design principles with robust CRM functionality.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Vuetify Laravel',
@@ -103,8 +103,8 @@ export const techData = [
     target: '_blank',
     tooltipTitle: 'Vuetify Laravel',
     description:
-      'Able Pro Vue with Laravel is a powerful admin dashboard template integrating Vue.js 3, Vuetify, and Laravel 10, enabling developers to build dynamic, high-performance applications efficiently',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Vue with Laravel integrates Vue.js 3, Vuetify, and Laravel for dynamic CRM applications.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Laravel Bootstrap',
@@ -113,8 +113,8 @@ export const techData = [
     target: '_self',
     tooltipTitle: 'Live Preview Not Available',
     description:
-      'Able Pro Laravel with Bootstrap provides a powerful set of tools and components, crafted specifically for Laravel, to simplify and accelerate your development process.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Laravel with Bootstrap provides powerful tools for CRM development with Laravel.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Django',
@@ -123,8 +123,8 @@ export const techData = [
     target: '_self',
     tooltipTitle: 'Live Preview Not Available',
     description:
-      'Able Pro Django is a powerful dashboard template designed for developers. it offers an extensive collection of pre-built components for seamless web development.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Django is a powerful CRM template with extensive pre-built components for seamless development.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Node JS',
@@ -133,8 +133,8 @@ export const techData = [
     target: '_self',
     tooltipTitle: 'Live Preview Not Available',
     description:
-      'Able Pro Node.js combines flexibility and functionality with a variety of pre-built components tailored for Node.js, which make it easier to develop.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Node.js combines flexibility with pre-built CRM components for easier development.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'Flask',
@@ -143,8 +143,8 @@ export const techData = [
     target: '_self',
     tooltipTitle: 'Live Preview Not Available',
     description:
-      'Able Pro Flask is a versatile dashboard solution that offers a rich set of pre-built components to simplify web development.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Flask is a versatile CRM solution with rich pre-built components.',
+    free: 'https://techromz.lk/'
   },
   {
     label: 'SvelteKit',
@@ -153,8 +153,8 @@ export const techData = [
     target: '_self',
     tooltipTitle: 'Live Preview Not Available',
     description:
-      'Able Pro Svelte provides an extensive toolkit and components, allowing you to build dynamic and responsive interfaces with ease and efficiency.',
-    free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+      'Techromz CRM Svelte provides dynamic and responsive CRM interfaces with ease and efficiency.',
+    free: 'https://techromz.lk/'
   }
   // {
   //   label: 'Figma',
@@ -163,7 +163,7 @@ export const techData = [
   //   target: '_blank',
   //   tooltipTitle: 'Figma',
   //   description:
-  //     'Able Pro comes with a Figma design file that allows you to customize and fine-tune your dashboard to meet your specific needs.',
-  //   free: 'https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template'
+  //     'Techromz CRM comes with design resources to customize your CRM to meet your specific needs.',
+  //   free: 'https://techromz.lk/'
   // }
 ];

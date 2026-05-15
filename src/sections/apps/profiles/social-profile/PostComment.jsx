@@ -26,7 +26,7 @@ export default function PostComment({ isReply }) {
             text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
           </Typography>
           <Link href="#" sx={{ ml: 6 }}>
-            https://codedthemes.com/
+            https://techromz.lk/
           </Link>
         </Stack>
       </MainCard>

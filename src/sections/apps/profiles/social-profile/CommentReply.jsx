@@ -24,7 +24,7 @@ export default function CommentReply() {
             <Typography variant="subtitle1">Lorem Ipsum is simply dummy</Typography>
             <Typography> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</Typography>
             <Link sx={{ overflowWrap: 'anywhere' }} href="#">
-              https://codedthemes.com/
+              https://techromz.lk/
             </Link>
           </Stack>
         </MainCard>

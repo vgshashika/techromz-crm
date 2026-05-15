@@ -5,7 +5,7 @@ export const bioBoardData = [
     description:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
     contactInfo: [
-      { icon: Global, label: 'https://codedthemes.com/' },
+      { icon: Global, label: 'https://techromz.lk/' },
       { icon: Home2, label: 'Hanoi,Vietnam' },
       { icon: Calendar, label: 'Auguest,21,1996' },
       { icon: Sms, label: 'demo123@mail.com' }

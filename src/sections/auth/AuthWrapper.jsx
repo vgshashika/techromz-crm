@@ -26,20 +26,20 @@ export default function AuthWrapper({ children }) {
   const [searchParams] = useSearchParams();
   const authParam = searchParams.get('auth') || '';
 
-  let documentationLink = 'https://phoenixcoded.gitbook.io/able-pro/authentication';
+  let documentationLink = 'https://techromz.lk/docs/auth';
 
   switch (authParam) {
     case 'auth0':
-      documentationLink = 'https://phoenixcoded.gitbook.io/able-pro/authentication/switch-to-auth0';
+      documentationLink = 'https://techromz.lk/docs/auth0';
       break;
     case 'firebase':
-      documentationLink = 'https://phoenixcoded.gitbook.io/able-pro/authentication/switch-to-firebase';
+      documentationLink = 'https://techromz.lk/docs/firebase';
       break;
     case 'aws':
-      documentationLink = 'https://phoenixcoded.gitbook.io/able-pro/authentication/switch-to-aws-cognito';
+      documentationLink = 'https://techromz.lk/docs/aws';
       break;
     case 'supabase':
-      documentationLink = 'https://phoenixcoded.gitbook.io/able-pro/authentication/switch-to-supabase';
+      documentationLink = 'https://techromz.lk/docs/supabase';
       break;
   }
 

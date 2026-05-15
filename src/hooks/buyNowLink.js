@@ -24,7 +24,7 @@ export function useBuyNowLink() {
         buyNowLink = 'https://1.envato.market/OrJ5nn';
         isPhoenix = true;
       } else {
-        buyNowLink = 'https://codedthemes.com/item/able-pro-mui-react-admin-template/';
+        buyNowLink = 'https://techromz.lk/pricing';
         isPhoenix = false;
       }
     } else {
@@ -32,7 +32,7 @@ export function useBuyNowLink() {
         buyNowLink = 'https://1.envato.market/zNkqj6';
         isPhoenix = true;
       } else {
-        buyNowLink = 'https://codedthemes.com/item/able-pro-dashboard-templates';
+        buyNowLink = 'https://techromz.lk/pricing';
         isPhoenix = false;
       }
     }

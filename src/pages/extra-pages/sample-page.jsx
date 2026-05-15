@@ -10,7 +10,7 @@ export default function SamplePage() {
   return (
     <MainCard title="Sample Card">
       <Typography variant="body1">
-        Do you Know? Able is used by more than 2.4K+ Customers worldwide. This new v9 version is the major release of Able Pro Dashboard
+        Do you Know? Techromz CRM is trusted by businesses worldwide. This is the modern version of our CRM platform
         Template with having brand new modern User Interface.
       </Typography>
     </MainCard>

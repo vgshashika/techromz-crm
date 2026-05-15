@@ -40,7 +40,7 @@ export default function FreePage() {
                 </Typography>
               </Grid>
               <Grid size={12}>
-                <Typography>Download the Free MIT Able Pro Dashboard Template before make your purchase decision.</Typography>
+                <Typography>Download the Free MIT Techromz CRM Template before making your deployment decision.</Typography>
               </Grid>
             </Grid>
           </FadeInWhenVisible>
@@ -67,7 +67,7 @@ export default function FreePage() {
                   size="large"
                   startIcon={<ExportSquare />}
                   component={Link}
-                  href="https://github.com/phoenixcoded/able-pro-free-admin-dashboard-template"
+                  href="https://github.com/techromz/techromz-crm"
                   target="_blank"
                 >
                   Free Version

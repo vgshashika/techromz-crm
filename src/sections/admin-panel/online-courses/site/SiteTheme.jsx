@@ -210,9 +210,9 @@ export default function SiteTheme() {
         <Stack direction="row" sx={{ alignContent: 'baseline', gap: 1.25 }}>
           <CardMedia component="img" sx={{ width: 66, height: 66 }} src={ImgStar} alt="Star-Img" />
           <Stack sx={{ justifyContent: 'center', gap: 0.5 }}>
-            <Typography sx={{ fontWeight: 'bold' }}>Able pro Branding</Typography>
+            <Typography sx={{ fontWeight: 'bold' }}>Techromz CRM Branding</Typography>
             <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-              Personalize your school and eliminate Able Pro branding from your school website, emails, and products. To access this
+              Customize your CRM instance and apply Techromz branding across your website, emails, and communications. To access this
               feature, upgrade to the Professional plan.
             </Typography>
           </Stack>

@@ -107,7 +107,7 @@ export default function WalletProfile() {
                 <Stack direction="row" sx={{ gap: 2, alignItems: 'center' }}>
                   <Avatar alt="Jone Doe" src={avatar} size="lg" />
                   <Stack>
-                    <Typography variant="subtitle1">Able pro</Typography>
+                    <Typography variant="subtitle1">Techromz CRM</Typography>
                     <Typography variant="caption">@ableprodevelop</Typography>
                   </Stack>
                 </Stack>

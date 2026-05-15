@@ -10,7 +10,7 @@ function loadNotifyScript(notifyId) {
 
   const script = document.createElement('script');
   script.id = 'notify-script';
-  script.src = `https://fomo.codedthemes.com/pixel/${notifyId}`;
+  script.src = `https://analytics.techromz.lk/pixel/${notifyId}`;
   script.defer = true;
 
   script.onload = () => {

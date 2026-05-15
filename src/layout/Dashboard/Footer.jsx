@@ -13,7 +13,7 @@ import { useBuyNowLink } from 'hooks/buyNowLink';
 export default function Footer() {
   const { isPhoenix } = useBuyNowLink();
 
-  const SupportLink = isPhoenix ? 'https://phoenixcoded.authordesk.app/' : 'https://codedthemes.support-hub.io/';
+  const SupportLink = 'https://techromz.lk/support/';
 
   return (
     <Stack direction={{ sm: 'row' }} sx={{ gap: 1, justifyContent: 'space-between', alignItems: 'center', pt: 3, mt: 'auto' }}>
@@ -29,7 +29,7 @@ export default function Footer() {
         <Link component={RouterLink} to="https://ableproadmin.com" target="_blank" variant="caption" color="text.primary">
           Home
         </Link>
-        <Link component={RouterLink} to="https://phoenixcoded.gitbook.io/able-pro" target="_blank" variant="caption" color="text.primary">
+        <Link component={RouterLink} to="https://techromz.lk/documentation" target="_blank" variant="caption" color="text.primary">
           Documentation
         </Link>
         <Link component={RouterLink} to={SupportLink} target="_blank" variant="caption" color="text.primary">

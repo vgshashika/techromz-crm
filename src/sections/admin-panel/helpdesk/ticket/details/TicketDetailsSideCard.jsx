@@ -78,7 +78,7 @@ export default function TicketDetailsSideCard() {
 
           <Select value={product} onChange={handleProductChange}>
             <MenuItem value="Piaf able">Piaf able</MenuItem>
-            <MenuItem value="Able Pro">Able Pro</MenuItem>
+            <MenuItem value="Techromz">Techromz</MenuItem>
             <MenuItem value="Goru dash">Able admin</MenuItem>
             <MenuItem value="headphones">Goru dash</MenuItem>
             <MenuItem value="Mash able">Mash able</MenuItem>
