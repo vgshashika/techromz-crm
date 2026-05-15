@@ -117,16 +117,16 @@ const MainRoutes = {
               ]
             }
           ]
-        },
-        {
-          path: 'privacy-policy',
-          element: <PrivacyPolicyPage />
-        },
-        {
-          path: 'terms-conditions',
-          element: <TermsAndConditionsPage />
         }
       ]
+    },
+    {
+      path: 'privacy-policy',
+      element: <PrivacyPolicyPage />
+    },
+    {
+      path: 'terms-conditions',
+      element: <TermsAndConditionsPage />
     },
     {
       path: '*',
