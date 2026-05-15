@@ -19,8 +19,8 @@ export const techData = [
   {
     label: 'Tailwind',
     image: techTailwind,
-    url: 'https://ableproadmin.com/tailwind/dashboard/index.html',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'Tailwind',
     description:
       'Techromz CRM with Tailwind CSS provides a sleek, professional interface for customer management. Tailwind utility classes ensure consistent styling.',
@@ -29,8 +29,8 @@ export const techData = [
   {
     label: 'Bootstrap',
     image: techBootstrap,
-    url: 'https://ableproadmin.com/dashboard/index.html',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'Bootstrap',
     description:
       ' Techromz CRM Bootstrap 5 - the top choice for responsive, mobile-first CRM design with professional functionality and appeal.',
@@ -39,8 +39,8 @@ export const techData = [
   {
     label: 'React MUI',
     image: techReact,
-    url: '/login',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'React MUI',
     description:
       'Techromz CRM React template is a powerful tool that utilizes Material-UI to create stunning CRM user interfaces.',
@@ -49,8 +49,8 @@ export const techData = [
   {
     label: 'Angular',
     image: techAngular,
-    url: 'https://ableproadmin.com/angular/default/dashboard/default',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'Angular',
     description:
       'Techromz CRM Angular template is a powerful tool for building stunning CRM interfaces with Google Material design.',
@@ -59,8 +59,8 @@ export const techData = [
   {
     label: 'CodeIgniter',
     image: techCodeigniter,
-    url: 'https://ableproadmin.com/codeigniter/default/public/dashboard-default',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'CodeIgniter',
     description:
       'Techromz CRM CodeIgniter version is a powerful CRM template built for CodeIgniter PHP developers with Bootstrap.',
@@ -69,8 +69,8 @@ export const techData = [
   {
     label: 'ASP.net',
     image: techNet,
-    url: 'https://able-pro.azurewebsites.net/Dashboard/Index',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'ASP.net',
     description:
       'Techromz CRM .NET version is a robust CRM template designed for .NET developers with pre-built components.',
@@ -79,8 +79,8 @@ export const techData = [
   {
     label: 'Next js',
     image: techNextJS,
-    url: 'https://nextjs.ableproadmin.com/dashboard/default',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'Next js',
     description:
       'Techromz CRM Next.js template is a powerful tool with Material-UI for stunning CRM interfaces.',
@@ -89,8 +89,8 @@ export const techData = [
   {
     label: 'Vue',
     image: techVue,
-    url: 'https://ableproadmin.com/vue/dashboard/default',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'Vue',
     description:
       'Techromz CRM Vue with Vuetify combines modern design principles with robust CRM functionality.',
@@ -99,8 +99,8 @@ export const techData = [
   {
     label: 'Vuetify Laravel',
     image: techVuelaravel,
-    url: 'https://ableproadmin.com/vue-laravel/dashboard/default',
-    target: '_blank',
+    url: '#',
+    target: '_self',
     tooltipTitle: 'Vuetify Laravel',
     description:
       'Techromz CRM Vue with Laravel integrates Vue.js 3, Vuetify, and Laravel for dynamic CRM applications.',
