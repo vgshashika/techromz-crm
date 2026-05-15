@@ -6,6 +6,8 @@ import DashboardLayout from 'layout/Dashboard';
 
 // render - dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
+const DashboardAnalytics = Loadable(lazy(() => import('pages/dashboard/analytics')));
+const DashboardFinance = Loadable(lazy(() => import('pages/dashboard/finance')));
 
 // render - applications
 const AppChat = Loadable(lazy(() => import('pages/apps/chat')));
@@ -35,6 +37,14 @@ const MainRoutes = {
             {
               path: 'default',
               element: <DashboardDefault />
+            },
+            {
+              path: 'analytics',
+              element: <DashboardAnalytics />
+            },
+            {
+              path: 'finance',
+              element: <DashboardFinance />
             }
           ]
         },
